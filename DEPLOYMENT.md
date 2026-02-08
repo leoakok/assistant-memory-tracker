@@ -46,7 +46,7 @@ The workflow (`.github/workflows/deploy.yml`) automatically deploys the app when
 ### package.json
 - **homepage**: Set to `https://leoakok.github.io/assistant-memory-tracker`
   - This ensures all asset paths work correctly on GitHub Pages
-- **deploy scripts**: Added for manual deployment if needed
+- **deploy scripts**: Not included; deployments are handled exclusively by GitHub Actions
 
 ### GitHub Actions Workflow
 - **Location**: `.github/workflows/deploy.yml`
@@ -91,22 +91,8 @@ If you need to manually trigger a deployment:
 4. Select the branch (usually `main`)
 5. Click "Run workflow"
 
----
-
-## 🛠️ Manual Deployment (Alternative Method)
-
-If you prefer to deploy manually without GitHub Actions:
-
-```bash
-# Install dependencies
-npm install
-
-# Build the production app
-npm run build
-
-# Deploy to GitHub Pages (requires gh-pages package)
-npm run deploy
-```
+Note: This repository deploys via GitHub Actions only. Branch-based
+deployments (for example, using `gh-pages`) are not configured.
 
 ---
 
