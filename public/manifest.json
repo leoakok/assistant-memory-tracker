@@ -1,0 +1,16 @@
+{
+  "short_name": "Memory Tracker",
+  "name": "Assistant Memory Tracker",
+  "description": "A React app that helps AI assistants remember user preferences across conversations",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🤖</text></svg>",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#ffffff"
+}
